@@ -275,6 +275,14 @@ footer{
         width: 35%;
     }
 
+    .logo{
+        width: 80%;
+    }
+
+    .btn-mainbutton{
+        margin-right: 0px !important;
+    }
+
     footer{
         height: 200px;
         background-color: var(--secondary-text-color);
