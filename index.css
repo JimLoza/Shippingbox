@@ -7,6 +7,22 @@ body{
     font-family: 'Poppins', sans-serif !important;
 }
 
+.right-bar{
+    background-color: var(--secondary-text-color);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 90px;
+    height: 170px;
+    position: fixed;
+    margin-left: 96%;
+    margin-top: 80px;
+}
+
+.social-icons{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
 .main-container {
     background-color: #012F70;
 }
@@ -218,8 +234,24 @@ footer{
     background-color: var(--secondary-text-color);
 }
 
+@media screen and (max-width: 1470.5px){
+    .right-bar{
+        margin-left: 94%;
+    }
+    
+}
+
+@media screen and (max-width: 970.5px){
+    .right-bar{
+        margin-left: 92%;
+    }
+    
+}
 
 @media screen and (max-width: 767.5px) {
+    .right-bar{
+        margin-left: 89%;
+    }
     .main-img{
         background-image: none;
         background-color: var(--primary-text-color);
