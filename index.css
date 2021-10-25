@@ -7,6 +7,9 @@ body{
     font-family: 'Poppins', sans-serif !important;
 }
 
+.bloque-2 h3{font-size: 25px;}
+.bloque-2 p{font-size: 22px;}
+
 .right-bar{
     background-color: var(--secondary-text-color);
     border-top-left-radius: 20px;
