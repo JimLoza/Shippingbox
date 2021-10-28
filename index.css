@@ -7,8 +7,9 @@ body{
     font-family: 'Poppins', sans-serif !important;
 }
 
-.bloque-2 h3{font-size: 25px;}
-.bloque-2 p{font-size: 22px;}
+.img-right{
+    width: 102% ;
+}
 
 .right-bar{
     background-color: var(--secondary-text-color);
@@ -84,6 +85,14 @@ body{
     margin-top: -20px;
 }
 
+.bloque2-title{
+    font-size: 25px;
+}
+
+.bloque2-text{
+    font-size: 22px;
+}
+
 .bloque-2 h1 {
     color: var(--secondary-text-color);
     font-weight: 700;
@@ -106,6 +115,7 @@ body{
     margin-top: -5%;
     height: 100vh;
 }
+
 
 .row-bloque3{
     margin-top: 10%;
@@ -141,6 +151,11 @@ hr.dashed {
     z-index: -1;
 }
 
+.func-title{
+    margin-top: 0px !important;
+    font-size: 25px;
+}
+
 .img-bloque4{
     max-height: 40%;
 }
@@ -172,6 +187,10 @@ hr.dashed {
     margin-top: -5%;
 }
 
+.bloque5-title{
+    font-size: 38px;
+}
+
 .bloque-5{
     background-color: var(--secondary-text-color);
 }
@@ -199,7 +218,7 @@ hr.dashed {
 }
 
 .formulario{
-    box-shadow: 0 8px 32px 0 rgba(107, 107, 107, 0.842);
+    box-shadow: 4px 5px 3px 0 rgba(107, 107, 107, 0.842);
 }
 
 .form-content{
@@ -221,7 +240,7 @@ hr.dashed {
 
 .form-button{
     background-color: var(--secondary-text-color);
-    box-shadow: 0 8px 32px 0 rgba(107, 107, 107, 0.842);
+    box-shadow: 3px 5px 8px 0px rgba(107, 107, 107, 0.842);
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 700;
